@@ -1,6 +1,6 @@
 $font-header: 'Noto Sans SC', sans-serif;
 $font-text: 'Noto Serif SC', serif;
-$font-alt: 'Source Code Pro', monospace;
+$font-alt: 'Roboto Mono', monospace;
 
 
 $color-black: rgba(0,0,0,.84);
@@ -33,13 +33,15 @@ body {
 }
 
 pre {
+    font-family: $font-alt;
+    font-size: smaller;
     padding: 10px;
     overflow-x: scroll;
 }
 
 code {
     font-family: $font-alt;
-    font-size: 13px;
+    font-size: smaller;
     color: #b71c1c;
     border: 0px solid #cfd8dc;
     padding: 3px;
