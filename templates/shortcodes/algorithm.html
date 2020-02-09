@@ -1,0 +1,10 @@
+<algorithm id="{{name}}" style="display: none;">
+    {{body}}
+</algorithm>
+
+<script>
+    var elem = document.getElementById("{{name}}");
+    var options = {
+    };
+    pseudocode.render(elem.textContent, elem.parentNode, options);
+</script>
