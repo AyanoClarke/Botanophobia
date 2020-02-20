@@ -1,12 +1,15 @@
 $font-header: 'Noto Sans SC', sans-serif;
 $font-text: 'Noto Serif SC', serif;
 $font-alt: 'Roboto Mono', monospace;
+$font-math: '';
 
 
 $color-black: rgba(0,0,0,.84);
 $color-grey: rgba(0,0,0,.54);
 $color-lgrey: rgba(0,0,0,0.20);
 $color-link: #004D40;
+
+
 
 body {
     margin: 0;
@@ -166,7 +169,27 @@ article {
 
 .katex { 
     font-family: $font-text;
-    font-size: 15px; 
+    font-size: medium;
+    font-variant-ligatures: normal;
+    font-variant: normal;
+    font-style: normal;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: .8em 0;
+    table-layout: fixed;
+    width: 100%;
+    thead {
+        
+        border-top: solid 1px rgba(0,0,0,0.2);
+        border-bottom: solid 1px rgba(0,0,0,0.2);
+    }
+
+    tbody {
+        border-bottom: solid 1px rgba(0,0,0,0.2);
+    }
 }
 
 @import "post.scss";
