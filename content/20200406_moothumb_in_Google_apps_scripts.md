@@ -46,7 +46,9 @@ npm install --save @types/google-apps-script
 
 ## 抄
 
-原来的代码在[这里](https://github.com/juo6442/moothumb/tree/acnh_params)，通过阅读代码可以发现 `src/js/predictor.js` 里面的 `predict` 函数是主要的出口。`src/js/presets.js` 里面保存大头菜价格浮动的参数。结合一下 [wiki](https://appmedia.jp/atsumare_doubutsunomori/4626808) 中大头菜的小知识，去快速阅读代码，就很容易懂大头菜的四种涨幅类型。然后原码通过 `src/js/ui.js` 把预测得到的结果表示出来。
+原来的代码在[这里](https://github.com/juo6442/moothumb/tree/acnh_params)，开源协议是`Apache License 2.0`，直接放心复制吧~ 
+
+通过阅读代码可以发现 `src/js/predictor.js` 里面的 `predict` 函数是主要的出口。`src/js/presets.js` 里面保存大头菜价格浮动的参数。结合一下 [wiki](https://appmedia.jp/atsumare_doubutsunomori/4626808) 中大头菜的小知识，去快速阅读代码，就很容易懂大头菜的四种涨幅类型。然后原码通过 `src/js/ui.js` 把预测得到的结果表示出来。
 
 好了，预测部分直接复制粘贴，显示结果稍作修改，改成由谷歌表格提供的接口即可。
 
@@ -54,5 +56,5 @@ npm install --save @types/google-apps-script
 
 首先为了让谷歌表格在每次记录数据更改的时候运行脚本，所以要提供一个接口函数，这里把它叫做 `runPredict`，接下来需要读取已有的数据，这里用接口读取反而比原来填表格要方便，读取完数据后，运行上述所说的`predict`，然后将预测结果写出成新的表格。直接调用`GoogleAppsScript.Spreadsheet.Sheet.clear()`强制刷新比较方便，然后重新绘制，谷歌表格提供足够丰富的接口真是太快乐了。
 
-最后加上一个只要更改就运行`runPredict`函数，一切就完成了，从开始打算改到阅读，抄，改完，一共只花了一个多小时。考虑到网站的全平台性，以及 Google App Scripts 的易上手，易抄，以后有什么需要不如考虑考虑谷歌表格吧~
+最后加上一个只要更改就运行`runPredict`函数，一切就完成了，从开始打算改到阅读，抄，改完，一共只花了一个多小时。考虑到网站的全平台性，以及 Google Apps Scripts 的易上手，易抄，以后有什么需要不如考虑考虑谷歌表格吧~
 
