@@ -14,7 +14,7 @@ relative_posts=[]
 
 +++
 
-沉迷在《集合啦！动物森友会》的我沉迷在炒~~股~~大头菜之中。大头菜的预测模型其实并不复杂，对应的也有一个[网站](https://juo6442.github.io/moothumb/)，但是由于每次都要输入大头菜的价格，健忘的我想把他保存在表格之中。谷歌表格是我心中最好的选择了，在云端的他小巧可爱，而且可以用近似于 javascript 的 Google Apps Scripts 来写脚本，就可以直接把项目抄到谷歌表格中了。这篇是记录我是怎么抄的。共享表格的链接是[这个](https://docs.google.com/spreadsheets/d/1bfOk0q9uTq6uUqulqf_hfb9x0KQSO575hpSLNS33m8w/edit?usp=sharing)，直接点进去复制一份就好了。
+沉迷在《集合啦！动物森友会》的我沉迷在炒<s>股</s>大头菜之中。大头菜的预测模型其实并不复杂，对应的也有一个[网站](https://juo6442.github.io/moothumb/)，但是由于每次都要输入大头菜的价格，健忘的我想把他保存在表格之中。谷歌表格是我心中最好的选择了，在云端的他小巧可爱，而且可以用近似于 javascript 的 Google Apps Scripts 来写脚本，就可以直接把项目抄到谷歌表格中了。这篇是记录我是怎么抄的。共享表格的链接是[这个](https://docs.google.com/spreadsheets/d/1bfOk0q9uTq6uUqulqf_hfb9x0KQSO575hpSLNS33m8w/edit?usp=sharing)，直接点进去复制一份就好了。
 
 ## 环境
 
