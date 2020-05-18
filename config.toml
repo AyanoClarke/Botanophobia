@@ -121,8 +121,9 @@ sidebar = [
     {name = "社交", urls=[
         {name="电报频道", url="https://t.me/botanophobia"},
         {name="啁啾会馆", url="https://twitter.com/ClarkeDLH"},
-        {name="吉特枢纽", url="https://github.com/AyanoClarke"},
-        {name="刹那图鉴", url="https://www.instagram.com/clarkedlh/"}
+        {name="饭桶枢纽", url="https://github.com/AyanoClarke"},
+        {name="刹那图鉴", url="https://www.instagram.com/clarkedlh/"},
+        {name="长毛嘟象" ,url="https://o3o.ca/@clarkedlh"}
     ]},
     {name = "工具", urls= [
         {name="Platform 9 3'4", url="http://home.ustc.edu.cn/~gjzkk2"},
