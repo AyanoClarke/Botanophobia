@@ -108,6 +108,21 @@ $font-alt: 'Source Code Pro', monospace;
         }
     }
 
+    .footnote-definition {
+        box-sizing: border-box;
+        margin-top: 0px;
+
+        sup {
+            vertical-align: super;
+            font-size: smaller;
+            color: $color-link;
+        }
+
+        p {
+            display: inline
+        }
+    }
+
     .relative-posts {
         margin-top: 10px;
         padding-top: 10px;
