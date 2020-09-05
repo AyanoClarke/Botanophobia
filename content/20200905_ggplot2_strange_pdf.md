@@ -1,7 +1,7 @@
 +++
 
 title = "ggplot2 辣眼睛输出一则"
-description = "我已经堕入似水流年的虚无，除了隐隐作痛的伤痕，毫无欢娱"
+description = "用 R 绘制一个图片往往没有表面的那么简单平静"
 date=2020-09-05
 
 [taxonomies]
