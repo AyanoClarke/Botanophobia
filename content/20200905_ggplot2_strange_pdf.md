@@ -61,4 +61,5 @@ ggsave("~/Desktop/test.pdf", p, height = 2, device = cairo_pdf)
 
 那么`pdf`用的究竟是什么字体？用软件查看了一下字体，是 Nimbus Sans. 
 所以是 PDF 阅读软件没有找到 `Times New Roman` 然后用 Nimbus Sans 做了字体替换。
-再仔细一看，不是`Times New Roman` 而是 `Times New Roman PS`，好了，破案了。
+再仔细一看，是`PostScript`的名字 `TimesNewRomanPSMT`，这并没有问题，于是再一次陷入了僵局。
+
