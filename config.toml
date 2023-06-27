@@ -52,7 +52,7 @@ taxonomies = [
 #       {code = "it"}, # there won't be a RSS feed for Italian content
 #     ]
 #
-languages = []
+# languages = {zh={generate_feed = true}}
 
 # Whether to compile the Sass files found in the `sass` directory
 compile_sass = true
@@ -111,22 +111,20 @@ og_site_name="" # Site Name for Open Graphic
 keywords="" # Keywords for SEO
 
 educational_use="knowledge share" # OPTIONAL
-copyright_year="2019" # OPTIONAL
+copyright_year="2023" # OPTIONAL
 
 fb_app_id="???" # OPTIONAL, Facebook App Id to help in metrics
 twitter_username="@clarkedlh" # OPTIONAL, Twitter User to help with metrics
 
 ## Sidebar automatic links
 sidebar = [
-    {name = "社交", urls=[
+    {name = "社交", urls = [
+        {name="长毛嘟象" ,url="https://o3o.ca/@clarkedlh"},
         {name="电报频道", url="https://t.me/botanophobia"},
         {name="啁啾会馆", url="https://twitter.com/ClarkeDLH"},
-        {name="饭桶枢纽", url="https://github.com/AyanoClarke"},
         {name="刹那图鉴", url="https://www.instagram.com/clarkedlh/"},
-        {name="长毛嘟象" ,url="https://o3o.ca/@clarkedlh"}
     ]},
-    {name = "工具", urls= [
-        {name="Platform 9 3'4", url="http://home.ustc.edu.cn/~gjzkk2"},
+    {name = "工具", urls = [
         {name="RSS", url="/rss.xml"},
     ]},
 ]

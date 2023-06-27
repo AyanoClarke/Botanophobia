@@ -106,12 +106,8 @@
     {% endblock js %}
 
     {% block css %}
-    <link href="https://fonts.lug.ustc.edu.cn/css?family=Roboto+Mono:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/pseudocode.min.css">
-    <link
-        href="https://fonts.lug.ustc.edu.cn/css?family=Noto+Sans+SC:100,400,700|Noto+Serif+SC:200,400,700&display=swap&subset=chinese-simplified"
-        rel="stylesheet">
-    {% if config.extra.katex_enable %}
+        {% if config.extra.katex_enable %}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.css"
         integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
     {% endif %}

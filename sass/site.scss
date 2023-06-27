@@ -1,6 +1,6 @@
-$font-header: 'Noto Sans SC', sans-serif;
-$font-text: 'Noto Serif SC', serif;
-$font-alt: 'Roboto Mono', monospace;
+$font-header: "Source Han Sans SC","PingFang SC","Microsoft YaHei",Arial,sans-serif;
+$font-text: "Source Han Serif SC",serif;
+$font-alt: "Source Code Pro", monospace;
 $font-math: '';
 
 
@@ -44,12 +44,10 @@ pre {
 
 code {
     font-family: $font-alt;
-    font-size: smaller;
     color: #b71c1c;
     border: 0px solid #cfd8dc;
     padding: 3px;
     border-radius: 5px;
-    background: #fafafa;
 }
 
 article {
