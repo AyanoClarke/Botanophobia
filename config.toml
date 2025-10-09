@@ -114,7 +114,7 @@ twitter_username="@clarkedlh" # OPTIONAL, Twitter User to help with metrics
 sidebar = [
     {name = "社交", urls = [
         {name="长毛嘟象" ,url="https://o3o.ca/@clarkedlh"},
-        {name="电报频道", url="https://t.me/botanophobia"},
+        {name="电报频道", url="https://t.me/smokers_on_the_rampage"},
         {name="啁啾会馆", url="https://twitter.com/ClarkeDLH"},
         {name="刹那图鉴", url="https://www.instagram.com/clarkedlh/"},
     ]},
