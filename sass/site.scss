@@ -1,6 +1,6 @@
-$font-header: "Source Han Sans SC","PingFang SC","Microsoft YaHei",Arial,sans-serif;
-$font-text: "Source Han Serif SC",serif;
-$font-alt: "Source Code Pro", monospace;
+$font-header: system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Noto Sans', 'Noto Sans CJK SC', 'Source Han Sans SC', Helvetica, Arial, sans-serif;
+$font-text: 'Noto Sans', 'Noto Sans CJK SC', 'Source Han Sans SC', system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+$font-code: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Cascadia Mono', 'JetBrains Mono', 'Fira Mono', 'DejaVu Sans Mono', Consolas, 'Liberation Mono', monospace;
 $font-math: '';
 
 
@@ -36,14 +36,14 @@ body {
 }
 
 pre {
-    font-family: $font-alt;
+    font-family: $font-code;
     font-size: smaller;
     padding: 10px;
     overflow-x: scroll;
 }
 
 code {
-    font-family: $font-alt;
+    font-family: $font-code;
     color: #b71c1c;
     border: 0px solid #cfd8dc;
     padding: 3px;
@@ -85,7 +85,7 @@ article {
         }
 
         h1 {
-            font-family: $font-alt;
+            font-family: $font-code;
             color: $color-black;
             font-size: 20px;
             margin: 0;

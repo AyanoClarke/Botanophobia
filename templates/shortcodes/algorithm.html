@@ -1,10 +1,7 @@
-<algorithm id="{{name}}" style="display: none;">
+<pre id="{{name}}" class="pseudocode">
     {{body}}
-</algorithm>
+</pre>
 
 <script>
-    var elem = document.getElementById("{{name}}");
-    var options = {
-    };
-    pseudocode.render(elem.textContent, elem.parentNode, options);
+    pseudocode.renderClass("pseudocode");
 </script>
