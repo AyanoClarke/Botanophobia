@@ -125,9 +125,7 @@ sidebar = [
 
 [markdown]
 # Highlight all code blocks found
-highlight_code = true
-
-# Which theme to use for the code highlighting.
-# See below for list of accepted values
-highlight_theme = "cheerfully-light"
-
+[markdown.highlighting]
+# Use paired syntax themes so code blocks follow the browser/system color scheme.
+light_theme = "github-light"
+dark_theme = "github-dark"
