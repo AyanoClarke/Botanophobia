@@ -127,5 +127,9 @@ sidebar = [
 # Highlight all code blocks found
 [markdown.highlighting]
 # Use paired syntax themes so code blocks follow the browser/system color scheme.
-light_theme = "github-light"
-dark_theme = "github-dark"
+light_theme = "modus-operandi"
+dark_theme = "modus-vivendi"
+extra_themes = [
+    "syntax-themes/modus-operandi.json",
+    "syntax-themes/modus-vivendi.json",
+]

@@ -11,32 +11,32 @@ $color-link: var(--color-link);
 
 :root {
     color-scheme: light dark;
-    --color-background: #fff;
-    --color-surface: #fff;
-    --color-text: rgba(0,0,0,.84);
-    --color-muted: rgba(0,0,0,.54);
-    --color-border: rgba(0,0,0,0.20);
-    --color-link: #00695c;
-    --color-link-hover: #004d40;
-    --color-list-link: #263238;
-    --color-code-text: #b71c1c;
-    --color-code-background: rgba(183,28,28,0.08);
-    --color-pre-background: #f6f8fa;
+    --color-background: #ffffff;
+    --color-surface: #f2f2f2;
+    --color-text: #000000;
+    --color-muted: #595959;
+    --color-border: #9f9f9f;
+    --color-link: #3548cf;
+    --color-link-hover: #0000b0;
+    --color-list-link: #193668;
+    --color-code-text: #005f5f;
+    --color-code-background: #f2f2f2;
+    --color-pre-background: #f2f2f2;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --color-background: #101312;
-        --color-surface: #151a19;
-        --color-text: rgba(255,255,255,.88);
-        --color-muted: rgba(255,255,255,.62);
-        --color-border: rgba(255,255,255,.22);
-        --color-link: #80cbc4;
-        --color-link-hover: #b2dfdb;
-        --color-list-link: rgba(255,255,255,.82);
-        --color-code-text: #ffab91;
-        --color-code-background: rgba(255,171,145,0.12);
-        --color-pre-background: #1a1f1e;
+        --color-background: #000000;
+        --color-surface: #1e1e1e;
+        --color-text: #ffffff;
+        --color-muted: #989898;
+        --color-border: #646464;
+        --color-link: #79a8ff;
+        --color-link-hover: #00bcff;
+        --color-list-link: #c6daff;
+        --color-code-text: #6ae4b9;
+        --color-code-background: #1e1e1e;
+        --color-pre-background: #1e1e1e;
     }
 }
 
